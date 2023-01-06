@@ -1,1 +1,104 @@
+/* Banner-Header  */
+    
 
+.Bg-images{
+    
+    position: absolute;
+    
+    height: 800px;
+    width: 1600;
+   
+    top: 0px;
+}
+.banner-title{
+    position: absolute;
+    width: 525px;
+    height: 220px;
+    left: 845px;
+    top: 216px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.Banner-button{
+    position: absolute;
+    width: 140px;
+    height: 55px;
+    left: 1230px;
+    top:570px;
+    background-color: #F15B22;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner-description{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 861px;
+    top: 454px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:initial ;
+
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px ;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* Main-section */
+.main-view{
+
+}
+
+.Heading-view{
+    margin-top: 100px;
+    padding-bottom: 20px;
+
+    width: 290px;
+    height: 80px;
+
+    margin-left: 745px;
+
+    font-size: 35px;
+    line-height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: rgb(35, 36, 37);
+    
+
+}
+
+.main-para{
+
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    left: 24px;
+    top: 1000px;
+    font-size: 16px;
+    font-weight: 400;
+    left: 750px;
+    top: 950;
+    color: rgb(35, 36, 37);
+    
+    
+
+}
+
+.list-para{
+    color: #F15B22;
+    margin-left: 750px;
+    margin-top: 145px;
+    color: rgb(76, 85, 85);
+}
+
+.header{
+    background-repeat: no-repeat;
+    background-position:  bottom left right;
+}
