@@ -1,5 +1,9 @@
 /* Banner-Header  */
 
+
+.imagess{
+    width:fit-content;
+}
 .banner-title{
     position: absolute;
     width: 500px;
@@ -17,7 +21,7 @@
     height: 55px;
     left: 1150px;
     top:600px;
-    background-color: #F15B22;
+    background-color: #fd4c06;
     color: aliceblue;
     border-radius: 5px;
     text-align: center;
@@ -101,7 +105,6 @@
     right: 800px;
     margin-left:700px;
     font-size: xx-large;
-    padding: 30px;
 }
 
 .skils-containeer{
@@ -110,70 +113,119 @@
 }
 
 
-.skill-title{
-font-size: 20px;
-font-weight: 700;
-text-align: left;
-margin-top: 20px;
-}
-
 .skill-description{
-text-align: justify;
+text-align:left;
 }
 
 .skils-containeer{
     display: flex;
-    gap: 40px;
+    gap: 50px;
     
 
 
 }
 
 .skill{
-    background-color: #d8d1cb8a;
+    background-color: #f8f6f38a;
     box-shadow: 0px 6px 20px rgb(189, 179, 87);
     border-radius: 20px;
     padding: 20px;
+    width:fit-content;
     
 }
 .skill-title{
-    font-size: 20px;
-    font-weight: 900;
-    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    text-align:centrt;
 }
 .skill-description{
-    text-align:justify;
+    text-align: left;
+    margin: auto;
 }
-
 .section{
-    margin-inline: 450px;
+    margin-inline: 440px;
 }
 
+
+
+
+ /* 
+ footer */
+    
+.footer{
+    background-color: black;
+}
+
+.footer-head{
+    font-size: xx-large;
+    color: aliceblue;
+    padding: 20px;
+
+}
+.Footer-para{
+    text-align: justify;
+    line-height: 20px;
+    width: 150px;
+    color: aliceblue;
+    padding: 20px;
+
+    
+}
+
+.Footerr{
+    background-color: rgb(129, 121, 121);
+    border-radius: 15px  ;
+    margin-left: 1px;
+    display: flex;
+    gap: 600px;
+    padding: 20px
+}
+
+.footer-head-two{
+    color: rgb(147, 159, 170);
+    font-size:xx-large;
+}
+
+.email-button{
+    padding: 5px;
+     
+}
+
+.gradient-head{
+    text-align: Left;
+    padding: 30px;
+    font-size: 40px;
+    width: 300px;
+    margin: 20px;
+    color: rgb(14, 12, 12);
+}
+
+.gradient-button{
+    background-color: #fffffe;
+    color: rgb(43, 36, 36);
+    width: 70;
+    font-weight: 900;
+    padding:15px;
+    margin-left: 55px;
+}
 /* Gradient */
 
-
-.g-heading{
-    font-size: 35px;
-    line-height: 60px;
+.gradient-style{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(211, 177, 65, 0.918), rgba(180, 202, 180, 0.877));
+    border-radius: 1cm;
+    margin-top: auto;
+    margin-bottom: 20px;
 }
+
 
 .gradient{
 
-    position: absolute;
-width: 1140px;
-height: 300px;
-left: 231px;
-top: 2225px; }
+position: absolute;
+width: auto;
+height: 30;
+left: 250px;
+top: 2050px;
 
-
-.gradient-two{
-    position: absolute;
-    width: 1140px;
-    height: 300px;
-    left: 231px;
-    top: 2225px;
-    background: linear-gradient(90deg, #6d303091 0%, rgba(241, 91, 34, 0) 100%);
-border-radius: 8px;
-    
  }
-    
